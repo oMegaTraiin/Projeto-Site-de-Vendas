@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #dcdcdc;
+}
+
+.header{
+    background-color: rgba(0,0,0,.2);
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 60px;
+}
+
+.header img{
+    padding-top: 8px;
+    position: absolute;
+    width: 200px;
+}
+
+.header ul{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 10%;
+}
+
+.header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.header ul li a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #dcdcdc;
+    padding: 10px;
+}
+
+.header ul li a:hover{
+    background-color: rgba(256,256,256,.1);
+}
+
+.header__limit{
+    width: 80px;
+}
+
+.footer__top{
+    background-color: #4169E1;
+    width: 100%;
+    height: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.footer__top__logo{
+    background-color: #dcdcdc;
+    border: #dcdcdc;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer__top__logo img{
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 200px;
+}
+
+.footer__top__social{
+    position: absolute;
+    right: 10%;
+}
+
+.footer__top__social ul{
+    display: flex;
+    align-items: center;
+}
+
+.footer__top__social li{
+    text-decoration: none;
+    list-style-type: none;
+    color: #dcdcdc;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer__top__social img{
+    width: 20px;
+}
+
+.footer__down {
+    background-color: #1E90ff;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer__line__top{
+    display: flex;
+    padding-top: 50px;
+}
+
+.footer__institucional ul li{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.footer__institucional ul li a{
+    color: #fffafa;
+    text-decoration: none;
+}
+
+.footer__institucional ul li a:hover{
+    color: #fff;
+}
+
+.footer__contatos{
+    position: absolute;
+    right: 10%;
+    width: 25%;
+}
+
+.footer__contatos ul li{
+    color: #363636;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.footer__line__down{
+    display: flex;
+    padding-top: 50px;
+}
+
+.footer__ajuda{
+    padding-right: 5%;
+}
+
+.footer__ajuda ul{
+    list-style-type: none;
+}
+
+.footer__ajuda ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #fffafa;
+}
+
+.footer__fastacess{
+    padding-right: 27.5%;
+}
+
+.footer__fastacess ul{
+    list-style-type: none;
+}
+
+.footer__fastacess a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #fffafa;
+}
+
+.footer__pagamento {
+    position: absolute;
+    right: 10%;
+}
+
+.footer__pagamento__imgs{
+    position: absolute;
+    right: 0;
+}
+
+.footer__pagamento ul li{
+    list-style-type: none;
+}
+
+.footer__pagamento img{
+    max-width: 32px;
+}
